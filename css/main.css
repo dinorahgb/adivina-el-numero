@@ -1,0 +1,9 @@
+.section__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.section__input {
+  width: 250px;
+}

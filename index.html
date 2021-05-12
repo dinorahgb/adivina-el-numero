@@ -1,13 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evaluación Intermedia</title>
-</head>
-<body>
-    
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Adivina el número</title>
+  </head>
+  <body>
+    <h1 class="title">Adivina el número</h1>
+    <form class="section__form" action="/signup" method="POST">
+      <label for="numero">Introduce aquí tu número:</label>
+      <input
+        class="section__input js-number"
+        type="numero"
+        id="numero"
+        name="numero"
+      />
+      <input
+        class="js-button"
+        type="button"
+        id="button"
+        value="Prueba"
+        name="button"
+      />
+      <input
+        class="section__input js-track"
+        type="text"
+        id="track"
+        placeholder="Pista: Escribe el número y dale a Prueba"
+        name="track"
+      />
+      <input
+        class="section__input js-attempts"
+        type="text"
+        id="attempts"
+        placeholder="Número de intentos: 0"
+        name="attempts"
+      />
+    </form>
+
+    <script src="./js/main.js"></script>
+  </body>
 </html>
